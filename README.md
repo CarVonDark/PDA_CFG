@@ -1,1 +1,4 @@
-# PDA_CFG
+# PDA to CFG 
+## Milestone: 
+- ### Get All variables 
+- ### Get All Case I Rules
