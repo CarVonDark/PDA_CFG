@@ -1,9 +1,9 @@
 
 public class Main {
 	public static void main(String args[]) {
-		test1(); //pass
+		//test1(); //pass
 		//test2(); //pass
-		//test3();
+		test3();
 	}
 	
 	public static void test1() {
@@ -37,8 +37,13 @@ public class Main {
 		
 		test1.findAllVariables();
 		test1.findAllCaseIRules();
+		test1.findAllCaseIIRules();
+		test1.findAllMITMRules();
 		test1.printAllVariables();
 		test1.printAllCaseIRules();
+		System.out.println();
+		test1.printAllCaseIIRules();
+		test1.printAllMITMRules();
 	}
 	
 	public static void test2() {
@@ -73,14 +78,21 @@ public class Main {
 		q4.addRoute(new Route(q4, q4, 'c', 'e', 'c'));
 		q4.addRoute(new Route(q5, q4, 'd', 'c', 'e'));
 		
-		q5.addRoute(new Route(q5, q5, 'c', 'e', 'c'));
+		q5.addRoute(new Route(q5, q5, 'd', 'c', 'e'));
 		q5.addRoute(new Route(q6, q5, 'e', '$', 'e'));
 		q5.addRoute(new Route(q7, q5, 'e', '#', 'e'));
 		
 		q7.addRoute(new Route(q2, q7, 'e', 'e', '#'));	
 
 		test2.findAllVariables();
-		System.out.println(test2.getVariables());
+		test2.findAllCaseIRules();
+		test2.findAllCaseIIRules();
+		test2.findAllMITMRules();
+		test2.printAllVariables();
+		test2.printAllCaseIRules();
+		System.out.println();
+		test2.printAllCaseIIRules();
+		test2.printAllMITMRules();
 	}
 	
 	public static void test3() {
@@ -132,9 +144,15 @@ public class Main {
 		q8.addRoute(new Route(q3, q8, 'e', 'e', 'T'));
 
 		q9.addRoute(new Route(q3, q9, 'e', 'e', 'b'));
-		
+
 		test3.findAllVariables();
-		System.out.println(test3.getVariables());
+		test3.findAllCaseIRules();
+		test3.findAllCaseIIRules();
+		test3.findAllMITMRules();
+		test3.printAllVariables();
+		test3.printAllCaseIRules();
+		test3.printAllCaseIIRules();
+		test3.printAllMITMRules();
 	}
 
 }

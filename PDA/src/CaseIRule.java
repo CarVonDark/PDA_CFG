@@ -1,5 +1,5 @@
 
-public class CaseIRule {
+public class CaseIRule extends Rule{
 
 	private Variable left;
 	private Variable right1;

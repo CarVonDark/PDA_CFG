@@ -21,6 +21,10 @@ public class State {
 	public ArrayList<Route> getSet() {
 		return this.set;
 	}
+	
+	public ArrayList<Route> getRoutes() {
+		return this.set;
+	}
 
 	public void addRoute(Route r) {
 		this.set.add(r);
