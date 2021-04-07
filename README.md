@@ -2,6 +2,8 @@
 ## Milestones: 
 - ### Get All Variables 
 - ### Get All Case I Rules
+- ### Get All Case II Rules
+- ### Get All MITM Rules
 ## Manual: 
 - ### Get All Variables: 
   - #### Initiate a new PDA in Main
